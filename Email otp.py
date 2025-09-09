@@ -9,9 +9,9 @@ for i in range(6):
 msg= OTP + " is your OTP"
 s = smtplib.SMTP('smtp.gmail.com', 587)
 s.starttls() # in(#)enter your details
-s.login("Techitech225@gmail.com", "cdah ykox vear rqnw")
+s.login("Your email id", "Your app password security key")
 emailid = input("Enter your email…")
-s.sendmail("Techitech225@gmail.com", emailid, msg)
+s.sendmail("your email id", To-email, msg)
 s.quit()
 print("otp sent successfully")
 otp=input("enter your otp")
